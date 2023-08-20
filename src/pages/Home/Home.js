@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import doc from "../../assets/Docs/FarzeelAftabCV.pdf"
 import { useTheme } from '../../Context/ThemeContext';
 import {BsFillMoonStarsFill,BsFillSunFill} from'react-icons/bs';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 const Home = () => {
   const [theme,setTheme] = useTheme();
   
@@ -36,7 +36,7 @@ const Home = () => {
         
         <div className='container homeContent'>
        
-        <Fade right >
+        <Fade  >
         
         <h3>Hi 👋 I'm a</h3>
         <h2>

@@ -14,8 +14,8 @@ import {
   } from "react-icons/fc";
   import { Link } from "react-scroll";
  
-  import Slide from 'react-reveal/Slide';
-  import Zoom from 'react-reveal/Zoom';
+  import { Slide } from "react-awesome-reveal";
+  import { Zoom } from "react-awesome-reveal";
 import { AiOutlineMenuFold } from 'react-icons/ai';
 const MobileNavBar = () => {
     const openimage = () => {

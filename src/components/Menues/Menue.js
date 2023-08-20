@@ -10,9 +10,9 @@ import {
   FcWorkflow,
 } from "react-icons/fc";
 import { Link } from "react-scroll";
-import Fade from "react-reveal/Fade";
-import Slide from 'react-reveal/Slide';
-import Zoom from 'react-reveal/Zoom';
+import { Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const Menue = ({ toggle }) => {
   const openimage = () => {
@@ -138,7 +138,7 @@ const Menue = ({ toggle }) => {
         </>
       ) : (
         <>
-        <Fade bottom>
+        <Fade down>
           <div className="menueItems">
             <div className="menueItem">
               <div className="menueLink">

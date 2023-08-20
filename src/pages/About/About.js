@@ -1,18 +1,18 @@
 import React from "react";
 import "./About.css";
-import Zoom from 'react-reveal/Zoom';
-import Fade from "react-reveal/Fade";
+import { Zoom } from "react-awesome-reveal";
+
 const About = () => {
   return (
     <>
       <div className=" aboutSection" id="about">
         <div className="row">
-          <Zoom>
+  
           <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12   aboutImg">
             <img src="./images/Farzeel.jpeg" alt="profile Photo" />
           </div>
-          </Zoom>
-          <Fade right>
+      
+         
           <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12 aboutMe">
           
               <h2>About me</h2>
@@ -42,7 +42,7 @@ const About = () => {
               </p>
            
           </div>
-          </Fade>
+        
         </div>
       </div>
     </>

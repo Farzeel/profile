@@ -5,7 +5,7 @@ import{BsLinkedin} from'react-icons/bs'
 import { useTheme } from '../../Context/ThemeContext'
 import Lottie from "lottie-react";
 import contactAnimation from "../../assets/contact.json";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import {toast} from "react-toastify"
 import axios from "axios";
 const Contact = () => {
@@ -54,7 +54,7 @@ const Contact = () => {
             <Lottie animationData={contactAnimation} loop={true} />
          </div>
          <div className='borderLine'>.</div>
-         <Fade right>
+     
          <div className='secondportion'>
             <div className='contactWithIcon'>
                 <h6 className='my-0'>Contact with </h6>
@@ -83,7 +83,7 @@ const Contact = () => {
                 <button className='sendMsgBtn' onClick={handleSubmit}>Send Message</button>
             </div>
          </div>
-         </Fade>
+       
       </div>
     </>
   )

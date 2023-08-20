@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdCastForEducation } from'react-icons/md';
 import './Education.css'
 import { useTheme } from '../../Context/ThemeContext';
-import Bounce from 'react-reveal/Bounce';
+import { Bounce } from "react-awesome-reveal";
 
 const Education = () => {
   const [theme] = useTheme();
