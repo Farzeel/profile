@@ -1,0 +1,42 @@
+.profilePic img{
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 7px;
+}
+.menueItem{
+margin-top: 21px;
+margin-left: 10px;
+}
+.menueLink{
+color: black;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    gap: 9px;
+    cursor: pointer;
+ 
+    
+}
+.menueLink:hover{
+color: #f29f67;
+}
+.menueLink .active{
+    color: #f29f67;
+    border-left: 3px solid red;
+    
+    text-decoration: none;
+}
+
+.bigger{
+    height: 22px;
+    font-size: 20px;
+}
+
+/* ......................DARKMODE............. */
+#dark .menueLink{
+color: white;
+}

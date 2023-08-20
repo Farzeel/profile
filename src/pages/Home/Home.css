@@ -1,0 +1,73 @@
+.homeContainer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+.homeContent{
+    margin-left: 50px;
+}
+.homeContainer h3{
+    color: white;
+}
+.homeContainer h2{
+    color:wheat
+}
+.homeBtn{
+    display: flex;
+gap: 20px;
+margin-top: 15px;
+}
+.resumeBtn{
+    padding: 2px;
+    width: 109px;
+    font-size: 14px;
+    border: 2px solid gold;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #e6ffe6;
+}
+
+.resumeBtn:hover{
+    background-color: #bcebbc;
+}
+.linkbtn{
+    text-decoration: none;
+    color: black;
+}
+.hireBtn{
+    padding: 2px;
+    width: 109px;
+    font-size: 14px;
+    border: 2px solid gold;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #e6f7ff;
+}
+
+.hireBtn:hover{
+    background-color: white;
+}
+.themeBtn{
+    padding: 1px;
+    width: 38px;
+    border-radius: 7px;
+    border: 1px;
+    position: fixed;
+    right: 0;
+    height: 33px;
+    background: black;
+    cursor: pointer;
+    z-index:60;
+
+}
+
+/* ...........MEDIA QUERY............ */
+
+@media only screen and (max-width: 600px) {
+    .homeContent{
+        margin-left: 0;
+    }
+    .homeContainer h2{
+        font-size: 24px;
+    }
+}

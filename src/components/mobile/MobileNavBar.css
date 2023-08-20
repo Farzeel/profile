@@ -1,0 +1,42 @@
+.mobileNavWrapper{
+    background: rgb(244, 239, 239);
+    position: sticky;
+    top: 0;
+    z-index: 34;
+}
+.mobileNav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.mobileHamburgur{
+    font-size: 24px;
+   
+    
+}
+.mobileSpan{
+    font-size: 24px;
+}
+.mobileAnimation{
+    width: 36px;
+}
+.mobileMenueSection{
+    width: 100%;
+}
+.mobilemenuspan{
+    font-size: 20px
+}
+
+
+@media (min-width: 600px) {
+    .mobileNavWrapper{
+        display: none;
+    }
+}
+
+/* ................DARKMODE............. */
+
+#dark .mobileNavWrapper{
+background-color: #1e1e2c;
+}

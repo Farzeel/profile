@@ -1,0 +1,186 @@
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px ;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+.contactPhoto{
+    width: 40%;
+    justify-content: center;
+    padding: 4px;
+    
+}
+.contactPhoto img{
+    width: 100%;
+}
+.borderLine{
+    width:1px ;
+    height: 245px;
+    background-color: gray;
+  font-size: 1px;
+    margin-left: 68px;
+}
+.secondportion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 45%;
+    padding: 4px;
+    
+   
+}
+.contactWithIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 64px;
+}
+.contactIcon{
+    cursor: pointer;
+}
+
+.lineOrLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 76%;
+}
+.firstLine{
+    width: 50%;
+    height: 1px;
+    background-color: gray;
+}
+.smallText{
+    margin: 0px 3px;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.secondLine{
+    width: 50%;
+    height: 1px;
+    background-color: gray;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 80%;
+}
+::placeholder{
+    opacity: 0.6;
+    color: gray;
+}
+input,textarea{
+    padding: 2px;
+    width: 100%;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0px;
+}
+.contactTextarea{
+    height: 100px;
+    padding: 2px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0px;
+}
+input:focus,.contactTextarea:focus{
+    border: 2px solid pink;
+   
+    transition: 0.5s ease-in-out;
+}
+.sendMsgBtn{
+    padding: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 13px 0px;
+    width: 80%;
+    height: 28px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius:5px
+}
+.sendMsgBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* ...........DARKMODE.................... */
+
+#dark .contact{
+    background-color: #272424
+}
+
+
+#dark input{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+#dark .contactTextarea{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+#dark .sendMsgBtn{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+#dark .sendMsgBtn:hover{
+    background-color: white;
+    color: black;
+}
+#dark ::placeholder{
+    color: white;
+}
+
+
+/* .............MEDIA QUERY......................... */
+
+@media only screen and (max-width: 600px) {
+    .contactWithIcon{
+        
+        margin-top: 12px;
+    }
+    .contact{
+     flex-direction: column;
+    }
+    .contactPhoto{
+        width: 100%;
+        justify-content: center;
+        padding: 4px;
+        
+    }
+ 
+    .borderLine{
+        width: 100%;
+    height: 1px;
+    margin-left: 0;
+    margin-top: 0px;
+
+    
+    }
+    .secondportion{
+
+        width: 100%;
+    
+    }
+}
+

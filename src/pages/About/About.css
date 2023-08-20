@@ -1,0 +1,55 @@
+.aboutSection{
+
+    margin-top:70px ;
+/* gap: 75px; */
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.aboutImg{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2px;
+}
+.aboutImg img{
+    width: 50%;
+    height: 361px;
+    border-radius: 10px;
+    margin-left: 64px;
+}
+.aboutMe{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.aboutMe h2{
+    font-family: cursive;
+    text-decoration: underline;
+    text-align: center;
+    color: gold;
+}
+
+.aboutMe p{
+    text-align: justify;
+    max-height: 302px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 8px;
+}
+
+/* ...........DARKMODE.................... */
+
+#dark .aboutSection{
+    background-color: #272424
+}
+
+/* .......................MDIAQUERY............. */
+@media only screen and (max-width: 600px) {
+    .aboutImg img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+}
+

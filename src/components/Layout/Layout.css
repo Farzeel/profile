@@ -1,0 +1,58 @@
+.sidebarSection{
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #333353;
+    
+}
+.toogleWidth{
+    width:31px;
+    height: 100vh;
+    /* background: #1e1e2c; */
+    background: rgb(244, 239, 239);
+    transition: width 0.5s ease;
+    position: fixed;
+}
+.sidebar{
+    height: 100vh;
+    background: rgb(244, 239, 239);
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+    width: 131px;
+    z-index: 3;
+    transition: width 0.5s ease;
+    position: fixed;
+   
+}
+.sidebarToggleIcon {
+    display: flex;
+    justify-content: right;
+}
+.sidebarToggleIcon p svg{
+    color: white;
+    background-color: #f29f67;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.adjustcontainer{
+    display: flex;
+    align-items: center;
+}
+
+/* ..............DRAKMODE............. */
+
+#dark .sidebar{
+    background: #1e1e2c;
+}
+#dark .toogleWidth{
+    background-color: #1e1e2c;
+}
+
+/* ...............MEDIA QUERY............. */
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+    .toogleWidth{
+        display: none;
+    }
+}

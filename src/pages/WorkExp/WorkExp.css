@@ -1,0 +1,30 @@
+.workExp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px ;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.workExp h1{
+    color: #138781;
+}
+.workExp hr{
+    width: 50%;
+}
+.workExp .vertical-timeline-element-title{
+color: wheat;
+}
+.workExp p{
+    font-size: 12px;
+    color: white;
+    margin-top: 3px;
+}
+.vertical-timeline::before{
+    background-color: #cab5b5;
+}
+
+/* .................DARLMODE........... */
+#dark .workExp{
+    background-color: #272424
+}

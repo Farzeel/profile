@@ -1,0 +1,63 @@
+.techStackHandle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px ;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.techStackHandle hr{
+    width: 50%;
+}
+.techStackHandle h1{
+    color: #138781;
+}
+.techStackHandle p{
+    color: #1faa1b;
+}
+.cardrow{
+justify-content: center;
+align-items: center;
+}
+.singlecard{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 27.333333%;
+    margin: 12px;
+    padding: 4px;
+    gap: 20px;
+    
+}
+.singlecard h2{
+    margin: 0;
+}
+.icons{
+
+    font-size: 40px;
+    /* color: dodgerblue; */
+
+}
+.singlecard:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #e6ffe6;
+    color: red;
+    transition: 1s;
+}
+
+/* .................DARLMODE........... */
+#dark .techStackHandle{
+    background-color: #272424
+}
+/* ...............MEDIA QUERIES -------------------------------- */
+@media only screen and (max-width: 600px) {
+    .singlecard{
+       width: 100%;
+    }
+    .techStackHandle p{
+       font-size: 11px;
+       margin-bottom: 0;
+    }
+}

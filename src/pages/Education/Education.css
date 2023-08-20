@@ -1,0 +1,42 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px ;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.education h1{
+    color: #138781;
+}
+.education hr{
+    width: 50%;
+}
+.education .vertical-timeline-element-title{
+color: wheat;
+}
+.education .vertical-timeline-element-subtitle{
+    font-size: 15px;
+    color: white;
+    margin-top: 3px;
+}
+.vertical-timeline::before{
+    background-color: #cab5b5;
+}
+
+/* .................DARLMODE........... */
+#dark .education{
+    background-color: #272424
+}
+
+
+/* ..............MEDIA QUERIES -------------------------------- */
+@media only screen and (max-width: 600px) {
+    .education .vertical-timeline-element-title{
+        font-size: 18px;
+        }
+        .education .vertical-timeline-element-subtitle{
+            font-size: 10px;
+          
+        }
+}
