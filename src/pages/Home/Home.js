@@ -42,7 +42,7 @@ const Home = () => {
         <h2>
         <Typewriter
   options={{
-    strings: ["React JS DEVOLPER",'FULL STACK DEVOLPER', 'MERN STACK DEVOLPER'],
+    strings: ["React JS DEVOLPER",'FULL STACK DEVELOPER', 'MERN STACK DEVOLPER'],
     autoStart: true,
     loop: true,
   }}

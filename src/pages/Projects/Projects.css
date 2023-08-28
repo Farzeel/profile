@@ -128,3 +128,8 @@
 #dark .projectinfo{
     background-color: #272424
 }
+@media only screen and (max-width: 600px) {
+    .projectinfo p{
+        font-size: 14px;
+    }
+}

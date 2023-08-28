@@ -4,7 +4,7 @@ import{AiFillFacebook,AiOutlineGithub} from'react-icons/ai'
 import{BsLinkedin} from'react-icons/bs'
 import { useTheme } from '../../Context/ThemeContext'
 import Lottie from "lottie-react";
-import contactAnimation from "../../assets/contact.json";
+import contactAnimation from "../../assets/animation_ll6krtnt.json";
 import { Fade } from "react-awesome-reveal";
 import {toast} from "react-toastify"
 import axios from "axios";
@@ -51,7 +51,7 @@ const Contact = () => {
       <div className="container contact" id='contact'>
          <div className='contactPhoto'>
             {/* <img src="https://media.istockphoto.com/id/1365544413/video/contact-us-concept.jpg?s=640x640&k=20&c=a6o5RVk_pVTjL_YXzFQYSa76PahdhH7OLCLdv3iel_I=" alt="photo" /> */}
-            <Lottie animationData={contactAnimation} loop={true} />
+            <Lottie animationData={contactAnimation} loop={false} />
          </div>
          <div className='borderLine'>.</div>
      

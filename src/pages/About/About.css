@@ -36,6 +36,9 @@ align-items: center;
     overflow-y: auto;
     padding: 8px;
 }
+.aboutMe p::-webkit-scrollbar {
+    width: 0;
+  }
 
 /* ...........DARKMODE.................... */
 
