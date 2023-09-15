@@ -17,27 +17,11 @@ const About = () => {
           
               <h2>About me</h2>
               <p>
-                Hi there! I'm <strong>Farzeel Aftab</strong>, a passionate
-                <b> Full Stack Developer </b>with a love for crafting creative
-                and efficient digital solutions. I thrive in the dynamic world
-                of web development, where I get to merge my technical skills
-                with my creative thinking to build interactive and user-friendly
-                applications.With a strong foundation in both frontend and
-                backend technologies, I enjoy the challenge of finding the
-                perfect balance between functionality and aesthetics. Whether
-                it's creating a sleek and<b> responsive user interface using HTML,
-                CSS, and JavaScript, or optimizing database queries and
-                designing RESTful APIs,</b> I take pride in every aspect of the
-                development process.
-                <b>
-                  My toolkit includes a variety of technologies such as React,
-                  Node.js, Express, MongoDB, and more.
-                </b>
-                .If you're looking for a dedicated Full Stack Developer who's
-                not only technically skilled but also committed to delivering
-                exceptional user experiences, let's connect! I'm always eager to
-                embark on new challenges and contribute my expertise to
-                innovative projects.
+              Enthusiastic and dedicated student majoring in Media Technology, with a passion for Software development.
+Eager to contribute to innovative projects, troubleshoot real-time challenges, and further develop skills in <b>C# ,JavaScript, TypeScript, React, Angular, MySQL</b>  and other technologies.
+Strong Foundation in <b>Object-Oriented-Programming Principles</b>
+ Proficient understanding of <b>Data Structures and Algorithms</b>
+
                 <br /> <b>Let's create something amazing together!</b>
               </p>
            

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Typewriter from 'typewriter-effect';
-import doc from "../../assets/Docs/FarzeelNew.pdf"
+import doc from "../../assets/Docs/CV.pdf"
 import { useTheme } from '../../Context/ThemeContext';
 import {BsFillMoonStarsFill,BsFillSunFill} from'react-icons/bs';
 import { Fade } from "react-awesome-reveal";
@@ -54,8 +54,8 @@ const Home = () => {
         <div className='homeBtn'>
           <button className='resumeBtn'><a className='linkbtn' href={doc} download="Farzeel Aftab.pdf">My Resume</a></button>
           <button className='hireBtn'><a className='linkbtn'
-            href="https://wa.me/+923155925150" target={"_blank"}
-          >Hire me</a></button>
+            href="https://wa.me/+4915510279848" target={"_blank"}
+          >WhatsApp</a></button>
         </div>
         </Fade>
         </div>
