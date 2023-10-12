@@ -9,7 +9,7 @@ const About = () => {
         <div className="row">
   
           <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12   aboutImg">
-            <img src="./images/Farzeel.jpeg" alt="profile Photo" />
+            <img src="./images/123.jpg" alt="profile Photo" />
           </div>
       
          
@@ -17,12 +17,9 @@ const About = () => {
           
               <h2>About me</h2>
               <p>
-              Enthusiastic and dedicated student majoring in Media Technology, with a passion for Software development.
-Eager to contribute to innovative projects, troubleshoot real-time challenges, and further develop skills in <b>C# ,JavaScript, TypeScript, React, Angular, MySQL</b>  and other technologies.
-Strong Foundation in <b>Object-Oriented-Programming Principles</b>
- Proficient understanding of <b>Data Structures and Algorithms</b>
+              A passionate Full Stack Web Developer Currently pursuing a Master's degree in Media Engineering at TU Ilmenau. Eager to contribute to innovative projects, troubleshoot real-time challenges, and further develop skills in  C#  , Python , PHP, JavaScript, TypeScript, React,  MySQL and other technologies 
 
-                <br /> <b>Let's create something amazing together!</b>
+                 <b>Let's create something amazing together!</b>
               </p>
            
           </div>

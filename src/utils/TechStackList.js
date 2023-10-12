@@ -3,6 +3,7 @@ import { TiHtml5 } from "react-icons/ti";
 
 import { FaNodeJs,FaCss3Alt } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
+import { BiLogoPhp } from "react-icons/bi";
 import {
   SiJavascript,
   SiMui,
@@ -24,7 +25,32 @@ import {
 } from "react-icons/si";
 
  const TechStackList = [
-    {
+  {
+    _id: 4,
+    name: "Javascript",
+    icon: SiJavascript,
+    color:"#e8c50e"
+  },  
+    
+  {
+    _id: 7,
+    name: "React JS",
+    icon: SiReact,
+    color:"aqua"
+  },
+  {
+    _id: 9,
+    name: "PHP",
+    icon: BiLogoPhp,
+    color:"purple"
+  },
+  {
+    _id: 19,
+    name: "SQL ",
+    icon: SiMysql,
+    color:"orange"
+  },
+  {
       _id: 1,
       name: "HTML",
       icon: TiHtml5,
@@ -42,27 +68,11 @@ import {
       icon: BsBootstrap,
       color:"#855cff"
     },
-    {
-      _id: 4,
-      name: "Javascript",
-      icon: SiJavascript,
-      color:"#e8c50e"
-    },
+
    
+
   
-    {
-      _id: 7,
-      name: "React JS",
-      icon: SiReact,
-      color:"aqua"
-    },
-  
-    {
-      _id: 9,
-      name: "React MUI",
-      icon: SiMui,
-      color:"blue"
-    },
+
     {
       _id: 10,
       name: "Tailwind ",
@@ -90,12 +100,7 @@ import {
       icon: SiMongodb,
       color:"green"
     },
-    {
-      _id: 19,
-      name: "SQL ",
-      icon: SiMysql,
-      color:"orange"
-    },
+
     {
       _id: 20,
       name: "Firebase ",

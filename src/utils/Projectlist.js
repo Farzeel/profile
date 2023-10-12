@@ -1,6 +1,22 @@
 const ProjectList = [
+    
     {
         id: 1,
+        badge:"Full Stack",
+        technologies:[   "Javscript","Bootstrap",
+         "LocalStorage",
+         ,]
+          
+           
+        ,
+        title: "Task Maneger App",
+        img:"./images/posteraTasks.jpg",
+        SourceCode: "https://github.com/Farzeel/Tasks-Management-App",
+        liveLink:"https://task-managment-olive.vercel.app/"
+
+    },
+    {
+        id: 2,
         badge:"Full Stack",
         technologies:[ "React",
          "Redux",
@@ -10,27 +26,13 @@ const ProjectList = [
          "Mongoose",]
             
         ,
-        title: " Blog App",
+        title: " Crypto Blog App",
         img:"https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?cs=srgb&dl=pexels-pixabay-262508.jpg&fm=jpg",
         SourceCode: "https://github.com/Farzeel/coin-bounce.git",
         liveLink:"https://github.com/Farzeel/coin-bounce.git"
 
     },
-    {
-        id: 2,
-        badge:"Full Stack",
-        technologies:[   "React",
-         "Firebase",
-         "Otp Auth",]
-          
-           
-        ,
-        title: "Movie App",
-        img:"https://cdn.digitbin.com/wp-content/uploads/Movies-HD.jpg",
-        SourceCode: "https://github.com/Farzeel/Filmy-World.git",
-        liveLink:"https://filmy-world-eight.vercel.app/"
-
-    },
+   
     {
         id: 3,
         badge:"FrontEnd",
