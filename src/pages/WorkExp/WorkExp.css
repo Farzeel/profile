@@ -16,9 +16,13 @@
 color: wheat;
 }
 .workExp p{
-    font-size: 12px;
-    color: white;
+    font-size: 16px;
+    color: black;
     margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%
 }
 .vertical-timeline::before{
     background-color: #cab5b5;
@@ -27,4 +31,15 @@ color: wheat;
 /* .................DARLMODE........... */
 #dark .workExp{
     background-color: #272424
+}
+#dark .workExp p{
+    color: white
+}
+
+@media only screen and (max-width: 600px) {
+    .workExp p{
+      
+        width: 100%;
+        
+    }
 }

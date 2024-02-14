@@ -5,7 +5,7 @@ import { Zoom } from "react-awesome-reveal";
 const About = () => {
   return (
     <>
-      <div className=" aboutSection" id="about">
+      <div  className=" aboutSection" id="about">
         <div className="row">
   
           <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12   aboutImg">
@@ -17,9 +17,9 @@ const About = () => {
           
               <h2>About me</h2>
               <p>
-              A passionate Full Stack Web Developer Currently pursuing a Master's degree in Media Engineering at TU Ilmenau. Eager to contribute to innovative projects, troubleshoot real-time challenges, and further develop skills in  C#  , Python , PHP, JavaScript, TypeScript, React,  MySQL and other technologies 
+              A passionate Full Stack Web Developer Currently pursuing a Master's degree in Media Engineering at TU Ilmenau. Eager to contribute to innovative projects, troubleshoot real-time challenges, and further develop skills in<b> JavaScript, Express JS, MongoDB, React JS, Python , Redux-ToolKit,</b>  and other technologies.
 
-                 <b>Let's create something amazing together!</b>
+                 
               </p>
            
           </div>

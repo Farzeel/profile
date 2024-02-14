@@ -15,13 +15,13 @@ const Layout = () => {
         <div className={toggle ? 'sidebar':"toogleWidth"}>
             <div className='sidebarToggleIcon'>
                 <p>
-                    {toggle?<BsChevronDoubleLeft onClick={HandleToggle} size={30}/>:
-                    <BsChevronDoubleRight onClick={HandleToggle} size={30}/>}
+                    {toggle?<BsChevronDoubleLeft title='collapse SideBar' onClick={HandleToggle} size={30}/>:
+                    <BsChevronDoubleRight title='Expand SideBar' onClick={HandleToggle} size={30}/>}
                 </p>
             </div>
             <Menue toggle={toggle}/>
         </div>
-        <div className='container adjustcontainer'>
+        <div  className='container adjustcontainer'>
             <Home/>
         </div>
       </div>

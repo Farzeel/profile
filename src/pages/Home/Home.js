@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import Typewriter from 'typewriter-effect';
-import doc from "../../assets/Docs/farzel.pdf"
+import doc from "../../assets/Docs/Resume.pdf"
 import { useTheme } from '../../Context/ThemeContext';
 import {BsFillMoonStarsFill,BsFillSunFill} from'react-icons/bs';
 import { Fade } from "react-awesome-reveal";
@@ -30,11 +30,11 @@ const Home = () => {
   return (
     <>
       <div className='container-fluid homeContainer' id='home'>
-        <button onClick={changeTheme} className='themeBtn'>{theme==="light"?<BsFillMoonStarsFill color='white'/>
+        <button title='Switch Theme' onClick={changeTheme} className='themeBtn'>{theme==="light"?<BsFillMoonStarsFill color='white'/>
         :<BsFillSunFill size={20} color='yellow'/>}
         </button>
         
-        <div className='container homeContent'>
+        <div   className='container homeContent'>
        
         <Fade  >
         
@@ -42,7 +42,7 @@ const Home = () => {
         <h2>
         <Typewriter
   options={{
-    strings: ["React JS DEVOLPER",'FULL STACK DEVELOPER', 'MERN STACK DEVOLPER'],
+    strings: ["JavaScript DEVOLPER", 'MERN STACK DEVOLPER'],
     autoStart: true,
     loop: true,
   }}
@@ -53,9 +53,16 @@ const Home = () => {
        
         <div className='homeBtn'>
           <button className='resumeBtn'><a className='linkbtn' href={doc} download="Farzeel Aftab.pdf">My Resume</a></button>
+          <button className='githubBtn'><a className='linkbtn clr'
+            href="https://github.com/Farzeel" target={"_blank"}
+          >GitHub</a></button>
+          <button className='xingBtn'><a className='linkbtn clr'
+            href="https://www.xing.com/profile/Farzeel_Aftab/web_profiles" target={"_blank"}
+          >Xing</a></button>
           <button className='hireBtn'><a className='linkbtn'
             href="https://wa.me/+4915510279848" target={"_blank"}
           >WhatsApp</a></button>
+         
         </div>
         </Fade>
         </div>

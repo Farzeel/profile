@@ -14,8 +14,12 @@ import {ToastContainer} from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
 
 
+
+
 function App() {
   const [theme] = useTheme();
+  const date = new Date()
+
   return (
     <>
     <div id={theme}>
@@ -31,7 +35,7 @@ function App() {
     <Contact/>
     </div>
     <div className='footer'>
-      <p> Made with 💖 Farzeel Aftab &copy; 2023 </p>
+      <p> Made with 💖 Farzeel Aftab &copy; {date.getFullYear()} </p>
     </div>
     </div>
    <ScrollToTop style={{right:"0px"}} className='smoothScroll bnn' smooth />

@@ -1,6 +1,20 @@
 const ProjectList = [
     
     {
+        id: 4,
+        badge:"FrontEnd",
+        technologies:[  "Html",
+         "Css",
+         "Javascript",]  ,
+        title: "Netflix Clone",
+        img:"https://www.plasmic.app/blog/static/images/plasmicflix/00-app-screenshot.png",
+        SourceCode: "https://github.com/Farzeel/NetflixClone.github.io.git",
+        liveLink:"https://farzeel.github.io/NetflixClone.github.io/"
+
+    },
+   
+   
+    {
         id: 1,
         badge:"Full Stack",
         technologies:[   "Javscript","Bootstrap",
@@ -42,19 +56,8 @@ const ProjectList = [
         SourceCode: "https://github.com/Farzeel/TextUtils.git",
         liveLink:"  https://farzeel.github.io/TextUtils/"
 
-    },
-    {
-        id: 4,
-        badge:"FrontEnd",
-        technologies:[  "Html",
-         "Css",
-         "Javascript",]  ,
-        title: "Netflix Clone",
-        img:"https://www.plasmic.app/blog/static/images/plasmicflix/00-app-screenshot.png",
-        SourceCode: "https://github.com/Farzeel/NetflixClone.github.io.git",
-        liveLink:"https://farzeel.github.io/NetflixClone.github.io/"
-
     }
+ 
 ]
 
 export default ProjectList;

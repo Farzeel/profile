@@ -14,6 +14,7 @@
 }
 .homeBtn{
     display: flex;
+    flex-wrap: wrap;
 gap: 20px;
 margin-top: 15px;
 }
@@ -26,6 +27,26 @@ margin-top: 15px;
     border-radius: 5px;
     background-color: #e6ffe6;
 }
+.githubBtn{
+    padding: 2px;
+    width: 109px;
+    font-size: 14px;
+    border: 2px solid gold;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #303730;
+    
+}
+.xingBtn{
+    padding: 2px;
+    width: 109px;
+    font-size: 14px;
+    border: 2px solid gold;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #3a9bf0;
+}
+
 
 .resumeBtn:hover{
     background-color: #bcebbc;
@@ -46,6 +67,9 @@ margin-top: 15px;
 
 .hireBtn:hover{
     background-color: white;
+}
+.clr{
+    color: white;
 }
 .themeBtn{
     padding: 1px;
