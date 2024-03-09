@@ -9,7 +9,7 @@ const ProjectList = [
         title: "Netflix Clone",
         img:"https://www.plasmic.app/blog/static/images/plasmicflix/00-app-screenshot.png",
         SourceCode: "https://github.com/Farzeel/NetflixClone.github.io.git",
-        liveLink:"https://farzeel.github.io/NetflixClone.github.io/"
+        liveLink:"https://netflix-user-interface.netlify.app/"
 
     },
    
