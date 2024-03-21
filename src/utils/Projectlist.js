@@ -2,21 +2,38 @@ const ProjectList = [
     
     {
         id: 4,
-        badge:"FrontEnd",
-        technologies:[  "Html",
-         "Css",
-         "Javascript",]  ,
-        title: "Netflix Clone",
-        img:"https://www.plasmic.app/blog/static/images/plasmicflix/00-app-screenshot.png",
-        SourceCode: "https://github.com/Farzeel/NetflixClone.github.io.git",
-        liveLink:"https://netflix-user-interface.netlify.app/"
+        badge:"FullStack",
+        technologies:[  "React",
+         "Node",
+         "Express", "Mongo-DB"]  ,
+        title: "Password Manager",
+        img:"./images/paswordManager.jpeg",
+        SourceCode: "https://github.com/Farzeel/password-Manager",
+        liveLink:"https://password-manager-un4h.onrender.com/"
+
+    },
+    {
+        id: 2,
+        badge:"Full Stack",
+        technologies:[ "React",
+         "Zustand",
+         "Node.js",
+         "Express.js",
+         "MongoDB",
+         ]
+            
+        ,
+        title: " Chat App",
+        img:"./images/chat.jpeg",
+        SourceCode: "https://github.com/Farzeel/Chat-App",
+        liveLink:"https://chat-app-7z5k.onrender.com"
 
     },
    
    
     {
         id: 1,
-        badge:"Full Stack",
+        badge:"FrontEnd",
         technologies:[   "Javscript","Bootstrap",
          "LocalStorage",
          ,]
@@ -29,23 +46,7 @@ const ProjectList = [
         liveLink:"https://task-managment-olive.vercel.app/"
 
     },
-    {
-        id: 2,
-        badge:"Full Stack",
-        technologies:[ "React",
-         "Redux",
-         "Node.js",
-         "Express.js",
-         "MongoDB",
-         "Mongoose",]
-            
-        ,
-        title: " Crypto Blog App",
-        img:"https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?cs=srgb&dl=pexels-pixabay-262508.jpg&fm=jpg",
-        SourceCode: "https://github.com/Farzeel/coin-bounce.git",
-        liveLink:"https://github.com/Farzeel/coin-bounce.git"
 
-    },
    
     {
         id: 3,
