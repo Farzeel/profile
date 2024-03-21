@@ -28,9 +28,9 @@ function App() {
     <Layout/>
     <div className='container'>
     <About/>
-    <Education/>
-    <TechStack/>
     <Projects/>
+    <TechStack/>
+    <Education/>
     <WorkExp/>
     <Contact/>
     </div>
